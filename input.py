@@ -19,4 +19,4 @@ while True:
     else:
         print("Button released")
         time.sleep(0.3) #anti bouncing
-        wiringpi.digitalWrite(pinLed, 0)    # Write 0 ( LOW ) to LED
+        wiringpi.digitalWrite(pinLed, 0)    # Write 0 ( LOW ) to led
